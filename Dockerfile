@@ -16,4 +16,4 @@ RUN apt update -qq && \
         vim \
         wget
 
-CMD ["tail", "-f", "/dev/null"]
+CMD ["/usr/bin/tail", "-f", "/dev/null"]
