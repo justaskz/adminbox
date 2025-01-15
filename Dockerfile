@@ -14,6 +14,7 @@ RUN apt update -qq && \
         netcat-traditional \
         redis \
         vim \
-        wget
+        wget \
+        yq
 
 CMD ["/usr/bin/tail", "-f", "/dev/null"]
