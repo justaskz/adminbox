@@ -14,6 +14,7 @@ RUN apt update -qq && \
         netcat-traditional \
         redis \
         vim \
+        w3m \
         wget \
         yq
 
