@@ -18,7 +18,7 @@ RUN apt update -qq && \
         wget \
         yq
 
-RUN wget https://github.com/grafana/mimir/releases/latest/download/mimirtool-linux-amd64 -P /usr/local/bin && \
+RUN wget https://github.com/grafana/mimir/releases/latest/download/mimirtool-linux-amd64 -O /usr/local/bin/mimirtool && \
     chmod +x /usr/local/bin/mimirtool
 
 CMD ["/usr/bin/tail", "-f", "/dev/null"]
