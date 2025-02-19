@@ -4,6 +4,7 @@ WORKDIR /root
 
 RUN apt update -qq && \
     apt install -y \
+        bat \
         curl \
         default-mysql-client \
         dnsutils \
