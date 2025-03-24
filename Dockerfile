@@ -14,6 +14,7 @@ RUN apt update -qq && \
         net-tools \
         netcat-traditional \
         redis \
+        ripgrep \
         vim \
         w3m \
         wget \
